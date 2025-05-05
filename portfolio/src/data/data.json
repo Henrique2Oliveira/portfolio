@@ -1,0 +1,81 @@
+{
+  "skills": [
+    {
+      "name": "HTML",
+      "color": "#CC471B"
+    },
+    {
+      "name": "CSS",
+      "color": "#1D47CC"
+    },
+    {
+      "name": "JavaScript",
+      "color": "#C9B84D"
+    },
+    {
+      "name": "React",
+      "color": "#4CA8C9"
+    },
+    {
+      "name": "Node.js",
+      "color": "#6E9F3A"
+    },
+    {
+      "name": "Express",
+      "color": "#2A89C3"
+    },
+    {
+      "name": "MongoDB",
+      "color": "#239B56"
+    },
+    {
+      "name": "Git",
+      "color": "#BF3F1F"
+    },
+    {
+      "name": "GitHub",
+      "color": "#2F3F94"
+    },
+    {
+      "name": "SQL",
+      "color": "#1769C1"
+    }
+  ],
+  "projects": [
+    {
+      "name": "What is on the Azores?",
+      "description": "A travel website for the Azores islands.",
+      "image": "/images/portfolio.png",
+      "link": "https://github.com/Henrique2Oliveira/What-is-in-the-Azores",
+      "tags": [
+        "React",
+        "TailwindCSS",
+        "Vite",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Startup Or Flop",
+      "description": "A web game where you guess if a startup had success or fail.",
+      "image": "/images/startup.png",
+      "link": "https://github.com/Henrique2Oliveira/SaasOrNot",
+      "tags": [
+        "Next.js",
+        "React",
+        "TailwindCSS",
+        "Supabase"
+      ]
+    },
+    {
+      "name": "Weekly Table Foods",
+      "description": "A web app to manage your weekly meals.",
+      "image": "/images/portfolio.png",
+      "link": "https://github.com/Henrique2Oliveira/weekly-table-foods",
+      "tags": [
+        "React",
+        "TailwindCSS",
+        "Vite"
+      ]
+    }
+  ]
+}
