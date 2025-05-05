@@ -1,3 +1,3 @@
-# Simple Portofolio for me
+# Simple Portofolio
 ## Stack
 ### React + Tailwind
