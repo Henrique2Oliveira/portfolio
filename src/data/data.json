@@ -91,6 +91,10 @@
     {
       "name": "Prisma",
       "color": "#0C344B"
+    },
+    {
+      "name": "Unity",
+      "color": "#000000"
     }
   ],
   "projects": [
@@ -101,11 +105,12 @@
       "link": "https://github.com/Henrique2Oliveira/What-is-in-the-Azores",
       "tags": [
         "React",
-        "TailwindCSS",
         "Vite",
-        "MongoDB"
+        "MongoDB",
+        "CSS"
       ],
-      "livelink": "https://www.livelink.com"
+      "livelink": "https://www.livelink.com",
+      "subcategory": "Web App"
     },
     {
       "name": "Startup Or Flop?",
@@ -115,10 +120,13 @@
       "tags": [
         "Next.js",
         "React",
+        "Framer Motion",
+        "Prisma",
         "TailwindCSS",
         "Supabase"
       ],
-      "livelink": "https://www.startuporflop.com"
+      "livelink": "https://www.startuporflop.com",
+      "subcategory": "Web App"
     },
     {
       "name": "Weekly Table Foods",
@@ -128,33 +136,35 @@
       "tags": [
         "React",
         "TailwindCSS",
-        "Vite"
+        "Next.js",
+        "MongoDB"
       ],
-      "livelink": "https://www.livelink.com"
+      "livelink": "https://www.livelink.com",
+      "subcategory": "Web App"
     },
     {
       "name": "Slime Box",
-      "description": "A fun and engaging arcade game where players manage and evolve their own slime.(I did when I was 16 years old.)",
+      "description": "A fun and engaging arcade game where players manage and evolve their own slime. (I did when I was 16 years old.)",
       "image": "/portfolio/box.png",
       "link": "https://gamejolt.com/games/slimebox/346671",
       "tags": [
         "Unity",
-        "C#",
-        "Game Development"
+        "C#"
       ],
-      "livelink": "https://gamejolt.com/games/slimebox/346671"
+      "livelink": "https://gamejolt.com/games/slimebox/346671",
+      "subcategory": "Game"
     },
     {
-      "name": "Fishing Explorer ",
-      "description": "A fun and engaging arcade game where players manage and evolve their own slime.(I did when I was 15 years old.)",
+      "name": "Fishing Explorer",
+      "description": "A relaxing game where you fish and explore the ocean. The game has a variety of fish, a day-night cycle, and a shop where you can buy upgrades. (I did when I was 15 years old.)",
       "image": "/portfolio/fish.webp",
       "link": "https://gamejolt.com/games/fishingexplorer/366340",
       "tags": [
         "Unity",
-        "C#",
-        "Game Development"
+        "C#"
       ],
-      "livelink": "https://gamejolt.com/games/fishingexplorer/366340"
+      "livelink": "https://gamejolt.com/games/fishingexplorer/366340",
+      "subcategory": "Game"
     }
   ],
   "experience": [

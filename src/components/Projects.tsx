@@ -30,12 +30,14 @@ function Main() {
             className="bg-secondary md:w-1/3 m-1 md:m-6 flex rounded-bl-2xl rounded-tr-2xl flex-col items-center gap-4 max-w-[300px] md:min-w-[500px] shadow-2xl hover:scale-102 ease-in-out cursor-pointer rounded-2xl border-2 border-dashed border-blackpx-6 py-3 font-semibold uppercase transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
             key={project.name}
           >
-            <img src={project.image} className="w-25 h-25" alt={project.name}/>
+            <img src={project.image} className="w-25 h-25" alt={project.name} />
             <h3
               className=" px-6 py-6 mb-4 w-full text-3xl text-white font-bold shadow-2xl text-left"
             >
               {project.name}
+              <span className='block text-sm font-light text-gray-200'> ({project.subcategory})</span>
             </h3>
+           
             <p className="px-5 text-sm">{project.description}</p>
             <div className="flex flex-row items-center gap-2">
               <a
