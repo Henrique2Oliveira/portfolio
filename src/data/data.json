@@ -100,7 +100,7 @@
   "projects": [
     {
       "name": "What is on the Azores?",
-      "description": "A travel website for the Azores islands.  Esperar um mes para o deploy",
+      "description": "A travel guide website for the Azores islands.",
       "image": "/portfolio/iconazores.png",
       "link": "https://github.com/Henrique2Oliveira/What-is-in-the-Azores",
       "tags": [

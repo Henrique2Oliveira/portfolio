@@ -1,6 +1,8 @@
 import data from '../data/data.json';
 import { FaArrowUp, FaTree, FaBook, FaTools } from "react-icons/fa";
 import { BsFillGrid1X2Fill } from "react-icons/bs";
+import { motion } from 'framer-motion';
+import { SiReaddotcv } from "react-icons/si";
 
 function Main() {
   const skills = data.skills; // Access the skills array
@@ -41,14 +43,15 @@ function Main() {
 
             <p className="px-5 text-sm">{project.description}</p>
             <div className="flex flex-row items-center gap-2">
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-secondary hover:bg-[#ffffff] rounded-full px-4 py-2 text-sm md:text-xl hover:text-black text-white font-medium hover:scale-105 transition duration-100 ease-in-out"
-              >
-                Source Code
-              </a>
+              {project.subcategory == "Web App" && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-secondary hover:bg-[#ffffff] rounded-full px-4 py-2 text-sm md:text-xl hover:text-black text-white font-medium hover:scale-105 transition duration-100 ease-in-out"
+                >
+                  Source Code
+                </a>)}
               <a
                 href={project.livelink}
                 target="_blank"
@@ -125,7 +128,13 @@ function Main() {
 
 
 
-      <div className="flex justify-center">
+      <div className="flex justify-center flex-col items-center gap-4 mt-10">
+        <motion.button
+          initial={{ scale: 0, x: -200 }}
+          animate={{ scale: 1, x: 0, transition: { duration: 1 } }}
+          whileHover={{ scale: 1.1, boxShadow: '0px 0px 10px rgba(0,0,0,0.3)' }}
+          className="rounded px-4 p-3 m-4 bg-white hover:bg-[#7495e9] transition-colors cursor-pointer hover:text-white w-fit md:text-2xl text-black shadow-[-1px_6px_0px_0px_rgba(0,_0,_0,_0.9)] "><a href='/portfolio/cv_henrique_oliveira.pdf'><SiReaddotcv className="inline-block mr-2" />Download CV</a></motion.button>
+
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           className="bg-primary hover:bg-secondary rounded-full cursor-pointer  px-6 py-2 text-sm md:text-lg hover:text-white text-white font-medium shadow-2xl hover:scale-105 transition duration-100 ease-in-out"
