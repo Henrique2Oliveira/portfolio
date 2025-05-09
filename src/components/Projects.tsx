@@ -1,11 +1,12 @@
 import data from '../data/data.json';
-import { FaArrowUp, FaTree, FaBook } from "react-icons/fa";
+import { FaArrowUp, FaTree, FaBook, FaTools } from "react-icons/fa";
 import { BsFillGrid1X2Fill } from "react-icons/bs";
 
 function Main() {
   const skills = data.skills; // Access the skills array
   const projects = data.projects; // Access the projects array
   const experience = data.experience; // Access the projects array
+  const tools = data.tools; // Access the projects array
 
   return (
     <section className="min-h-screen md:px-4 py-10">
@@ -37,7 +38,7 @@ function Main() {
               {project.name}
               <span className='block text-sm font-light text-gray-200'> ({project.subcategory})</span>
             </h3>
-           
+
             <p className="px-5 text-sm">{project.description}</p>
             <div className="flex flex-row items-center gap-2">
               <a
@@ -108,6 +109,19 @@ function Main() {
         ))}
       </div>
 
+
+      <div>
+        <h2 className='font-bold  text-2xl md:text-3xl mb-15 '>Tools & Workflow <FaTools className='inline-block mb-2' /> </h2>
+        <div className='flex flex-wrap justify-center gap-5 mb-10'>
+          {tools.map((tool) => (
+            <div key={tool.name} className="flex bg-dark  md:w-1/3 pb-6 flex-col  items-center gap-4 max-w-[300px] md:min-w-[500px] shadow-2xl hover:scale-102 ease-in-out cursor-pointer rounded-2xl border-2 border-dashed border-blackpx-6 py-3 font-semibold uppercase transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+              <img src={tool.image} alt={tool.name} className="max-w-32 h-auto" />
+              <p className="text-md">{tool.name}</p>
+              <p className="text-sm text-gray-200">{tool.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
 
 
 

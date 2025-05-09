@@ -200,5 +200,33 @@
         "Algorithms"
       ]
     }
+  ],
+  "tools": [
+    {
+      "name": "Visual Studio Code",
+      "image": "/portfolio/vscode.webp",
+      "description": "My go-to code editor. I use it for writing code, debugging, and version control."
+    },
+    {
+      "name": "Figma",
+      "image": "/portfolio/figma.png",
+      "description": "I use Figma to design and prototype my projects. It's a powerful tool for creating responsive designs and testing them out quickly."
+    },
+    {
+      "name": "Trello",
+      "image": "/portfolio/trello.png",
+      "description": "I use Trello to manage my projects and tasks. It's a great tool for keeping track of progress and staying organized."
+    },
+    {
+      "name": "TickTick",
+      "image": "/portfolio/ticktick.jpg",
+      "description": "I use TickTick to manage my daily tasks and reminders. It's a simple yet powerful tool for staying on top of my work and personal life."
+    },
+    {
+      "name": "Postman",
+      "image": "/portfolio/postman.webp",
+      "description": "I use Postman to test my APIs and endpoints. It's a great tool for testing and debugging my code."
+    }
+
   ]
 }
