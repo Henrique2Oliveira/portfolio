@@ -24,9 +24,9 @@ function App() {
         }}
       />
       <Header />
-      <hr className='w-[40%] opacity-80 mx-auto text-[#606060]' />
+      <hr className='w-[40%] opacity-80 mx-auto text-[#606060] shadow-[2px_2px_2px_black]' />
       <Main />
-      <hr className='w-[40%] opacity-80 mx-auto text-[#606060]' />
+      <hr className='w-[40%] opacity-80 mx-auto text-[#606060] shadow-[2px_2px_2px_black] ' />
       <Footer />
     </>
   )

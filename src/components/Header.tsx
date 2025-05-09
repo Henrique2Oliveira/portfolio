@@ -22,7 +22,7 @@ function Header() {
       initial="initial"
       animate="animate"
       variants={variants}
-      className="flex flex-col bg-midnight text-light p-2 md:p-4 h-screen justify-center items-center gap-y-3">
+      className="flex flex-col bg-gradient-to-b from-[#514e3d] to-midnight  text-light p-2 md:p-4 h-screen justify-center items-center gap-y-3">
       <motion.div
         initial={{ scale: 0, rotate: 180, y: -100 }}
         animate={{ scale: 1, rotate: 0, y: 0, transition: { duration: 1 } }}
@@ -35,7 +35,7 @@ function Header() {
 
       <p className="rounded-full bg-secondary w-fit px-3 italic">Full-Stack Developer </p>
       <p className="text-sm">Azores, Portugal</p>
-      <div className="flex gap-x-2">
+      <div className="flex gap-x-2 flex-wrap justify-center items-center mt-4">
         <motion.button
           initial={{ scale: 0, x: -200 }}
           animate={{ scale: 1, x: 0, transition: { duration: 1 } }}

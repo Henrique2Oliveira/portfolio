@@ -1,6 +1,6 @@
 import data from '../data/data.json';
-import { FaArrowUp, FaTree , FaBook} from "react-icons/fa";
-import {BsFillGrid1X2Fill} from "react-icons/bs";
+import { FaArrowUp, FaTree, FaBook } from "react-icons/fa";
+import { BsFillGrid1X2Fill } from "react-icons/bs";
 
 function Main() {
   const skills = data.skills; // Access the skills array
@@ -8,10 +8,10 @@ function Main() {
   const experience = data.experience; // Access the projects array
 
   return (
-    <section className="min-h-screen px-4 py-10">
-      <h2 className="font-bold text-3xl mb-4">My Skill Tree <FaTree className='inline-block mb-2' /> </h2>
+    <section className="min-h-screen md:px-4 py-10">
+      <h2 className="font-bold  text-2xl md:text-3xl mb-4">My Skill Tree <FaTree className='inline-block mb-2' /> </h2>
 
-      <div className="flex flex-wrap flex-0 justify-center gap-4 md:mx-25 mx-1 mb-10 ">
+      <div className="flex flex-wrap flex-0 justify-center gap-4  md:mx-25 mb-10 ">
         {skills.map((skill) => (
           <p
             key={skill.name}
@@ -23,13 +23,14 @@ function Main() {
         ))}
       </div>
 
-      <h2 className="font-bold text-3xl mb-4">My Projects <BsFillGrid1X2Fill className='inline-block mb-2' /></h2>
+      <h2 className="font-bold text-2xl md:text-3xl mb-4">My Projects <BsFillGrid1X2Fill className='inline-block mb-2' /></h2>
       <div className="flex flex-wrap justify-center gap-5 mb-10">
         {projects.map((project) => (
           <div
-            className="bg-secondary md:w-1/3 m-6 flex rounded-bl-2xl rounded-tr-2xl flex-col items-center gap-4 max-w-[300px] md:min-w-[500px] shadow-2xl hover:scale-102 ease-in-out cursor-pointer rounded-2xl border-2 border-dashed border-blackpx-6 py-3 font-semibold uppercase transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
+            className="bg-secondary md:w-1/3 m-1 md:m-6 flex rounded-bl-2xl rounded-tr-2xl flex-col items-center gap-4 max-w-[300px] md:min-w-[500px] shadow-2xl hover:scale-102 ease-in-out cursor-pointer rounded-2xl border-2 border-dashed border-blackpx-6 py-3 font-semibold uppercase transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
             key={project.name}
           >
+            <img src={project.image} className="w-25 h-25" alt={project.name}/>
             <h3
               className=" px-6 py-6 mb-4 w-full text-3xl text-white font-bold shadow-2xl text-left"
             >
@@ -73,7 +74,7 @@ function Main() {
         ))}
       </div>
 
-      <h2 className="font-bold text-3xl mb-15 ">My Background and Experiences <FaBook className='inline-block mb-2' /></h2>
+      <h2 className="font-bold  text-2xl md:text-3xl mb-15 ">My Background and Experiences <FaBook className='inline-block mb-2' /></h2>
 
 
       <div className="flex flex-wrap justify-center gap-5 mb-10">
