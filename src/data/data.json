@@ -97,7 +97,7 @@
     {
       "name": "What is on the Azores?",
       "description": "A travel website for the Azores islands.  Esperar um mes para o deploy",
-      "image": "/iconazores.png",
+      "image": "/portfolio/iconazores.png",
       "link": "https://github.com/Henrique2Oliveira/What-is-in-the-Azores",
       "tags": [
         "React",
@@ -110,7 +110,7 @@
     {
       "name": "Startup Or Flop?",
       "description": "A web game where you guess if a startup had success or fail.",
-      "image": "/iconsaas.png",
+      "image": "/portfolio/iconsaas.png",
       "link": "https://github.com/Henrique2Oliveira/SaasOrNot",
       "tags": [
         "Next.js",
@@ -123,7 +123,7 @@
     {
       "name": "Weekly Table Foods",
       "description": "A web app to manage your weekly meals.",
-      "image": "/iconwtf.png",
+      "image": "/portfolio/iconwtf.png",
       "link": "https://github.com/Henrique2Oliveira/weekly-table-foods",
       "tags": [
         "React",
@@ -131,13 +131,37 @@
         "Vite"
       ],
       "livelink": "https://www.livelink.com"
+    },
+    {
+      "name": "Slime Box",
+      "description": "A fun and engaging arcade game where players manage and evolve their own slime.(I did when I was 16 years old.)",
+      "image": "/portfolio/box.png",
+      "link": "https://gamejolt.com/games/slimebox/346671",
+      "tags": [
+        "Unity",
+        "C#",
+        "Game Development"
+      ],
+      "livelink": "https://gamejolt.com/games/slimebox/346671"
+    },
+    {
+      "name": "Fishing Explorer ",
+      "description": "A fun and engaging arcade game where players manage and evolve their own slime.(I did when I was 15 years old.)",
+      "image": "/portfolio/fish.webp",
+      "link": "https://gamejolt.com/games/fishingexplorer/366340",
+      "tags": [
+        "Unity",
+        "C#",
+        "Game Development"
+      ],
+      "livelink": "https://gamejolt.com/games/fishingexplorer/366340"
     }
   ],
   "experience": [
     {
       "name": "ENTA School – Escola de Novas Tecnologias dos Açores",
       "description": "Completed a 3-year technical program specializing in electronics, automation systems, and programming. Developed practical skills through hands-on projects involving microcontrollers, circuit design, and embedded software. Built a strong foundation in problem-solving, logical thinking, and systems integration.",
-      "image": "/enta.png",
+      "image": "/portfolio/enta.png",
       "link": "https://www.enta.store",
       "tags": [
         "Electronics",
@@ -146,11 +170,10 @@
         "Microcontrollers"
       ]
     },
-    
     {
       "name": "Full-Stack Web Development Program",
       "description": "Completed an intensive full-stack engineering program in January 2025, covering front-end and back-end development. Built dynamic, interactive web applications with a strong focus on best practices in web security, performance, and clean architecture.",
-      "image": "/fullstack.png",
+      "image": "/portfolio/fullstack.png",
       "link": "https://www.codecademy.com/profiles/Henrique2Oliveira/certificates/ffd0f42cce1a44e9a0108b365047a0a6",
       "tags": [
         "HTML",

@@ -28,7 +28,7 @@ function Header() {
         animate={{ scale: 1, rotate: 0, y: 0, transition: { duration: 1 } }}
         className="w-32 h-32 md:w-50 md:h-50 rounded-full overflow-hidden shadow-[-4px_5px_0px_0px_rgba(0,_0,_0,_0.3)]">
         {/* Profile picture */}
-        <img src="/images/profile.jpg" className="object-cover w-full h-full " alt="Profile picture" />
+        <img src="/portfolio/profile.jpg" className="object-cover w-full h-full " alt="Profile picture" />
       </motion.div>
 
       <h1 className="text-2xl font-bold md:text-5xl bg-gradient-to-l to-[#eeeeee] from-[#ece09c]  bg-clip-text text-transparent">Henrique Oliveira</h1>
