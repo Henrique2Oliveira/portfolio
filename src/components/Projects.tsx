@@ -48,7 +48,7 @@ function Main() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-secondary hover:bg-[#ffffff] rounded-full px-4 py-2 text-sm md:text-xl hover:text-black text-white font-medium hover:scale-105 transition duration-100 ease-in-out"
+                  className=" rounded-full px-4 m-4 bg-white hover:bg-[#ffffff] py-2 text-sm md:text-xl hover:text-black text-black font-medium hover:scale-105 transition duration-100 ease-in-out"
                 >
                   Source Code
                 </a>)}
@@ -56,7 +56,7 @@ function Main() {
                 href={project.livelink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-dark  px-4 py-2 text-sm md:text-xl hover:text-green-400 text-white font-medium hover:scale-105 transition duration-100 ease-in-out"
+                className=" rounded-full px-4 m-4 bg-white hover:bg-[#66e440] py-2 text-sm md:text-xl hover:text-black text-black font-medium hover:scale-105 transition duration-100 ease-in-out"
               >
                 See Live
               </a>
