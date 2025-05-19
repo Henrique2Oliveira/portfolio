@@ -99,20 +99,6 @@
   ],
   "projects": [
     {
-      "name": "What is on the Azores?",
-      "description": "A travel guide website for the Azores islands.",
-      "image": "/portfolio/iconazores.png",
-      "link": "https://github.com/Henrique2Oliveira/What-is-in-the-Azores",
-      "tags": [
-        "React",
-        "Vite",
-        "MongoDB",
-        "CSS"
-      ],
-      "livelink": "https://www.livelink.com",
-      "subcategory": "Web App"
-    },
-    {
       "name": "Startup Or Flop?",
       "description": "A web game where you guess if a startup had success or fail.",
       "image": "/portfolio/iconsaas.png",
@@ -139,7 +125,21 @@
         "Next.js",
         "MongoDB"
       ],
-      "livelink": "https://www.livelink.com",
+      "livelink": "https://weekly-table-foods-henrique2oliveiras-projects.vercel.app/",
+      "subcategory": "Web App"
+    },
+    {
+      "name": "What is on the Azores?",
+      "description": "A travel guide website for the Azores islands.",
+      "image": "/portfolio/iconazores.png",
+      "link": "https://github.com/Henrique2Oliveira/What-is-in-the-Azores",
+      "tags": [
+        "React",
+        "Vite",
+        "MongoDB",
+        "CSS"
+      ],
+      "livelink": "https://what-is-in-the-azores-clientside.onrender.com/",
       "subcategory": "Web App"
     },
     {
@@ -227,6 +227,5 @@
       "image": "/portfolio/postman.webp",
       "description": "I use Postman to test my APIs and endpoints. It's a great tool for testing and debugging my code."
     }
-
   ]
 }
