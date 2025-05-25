@@ -51,7 +51,7 @@ function Header() {
           initial={{ scale: 0, x: 200 }}
           animate={{ scale: 1, x: 0, transition: { duration: 1 } }}
           whileHover={{ scale: 1.1, boxShadow: '0px 0px 10px rgba(0,0,0,0.3)' }}
-          className="rounded font-light  md:p-2 m-1 bg-white hover:bg-[#364664fe] transition-colors hover:text-white w-fit md:text-2xl text-black shadow-[-1px_6px_0px_0px_rgba(0,_0,_0,_0.9)] "><a href="mailto:henriqueoliveira_2021@outlook.com" className="hover:px-5 px-4 py-4 transition-all duration-100 ease-in-out"><MdOutlineMailOutline className='inline' />Email</a></motion.button>
+          className="rounded font-light  md:p-2 m-1 bg-white hover:bg-[#364664fe] transition-colors hover:text-white w-fit md:text-2xl text-black shadow-[-1px_6px_0px_0px_rgba(0,_0,_0,_0.9)] "><a href="#" className="hover:px-5 px-4 py-4 transition-all duration-100 ease-in-out"><MdOutlineMailOutline className='inline' />Email</a></motion.button>
       </div >
 
     </motion.header >

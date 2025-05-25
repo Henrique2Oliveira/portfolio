@@ -3,6 +3,8 @@ import { FaArrowUp, FaTree, FaBook, FaTools } from "react-icons/fa";
 import { BsFillGrid1X2Fill } from "react-icons/bs";
 import { motion } from 'framer-motion';
 import { SiReaddotcv } from "react-icons/si";
+import WHOAMI from './WHOAMI';
+import PrevWork from './PrevWork';
 
 function Main() {
   const skills = data.skills; // Access the skills array
@@ -12,6 +14,7 @@ function Main() {
 
   return (
     <section className="min-h-screen md:px-4 py-10">
+      <WHOAMI />
       <h2 className="font-bold  text-2xl md:text-3xl mb-4">My Skill Tree <FaTree className='inline-block mb-2' /> </h2>
 
       <div className="flex flex-wrap flex-0 justify-center gap-4  md:mx-25 mb-10 ">
@@ -112,6 +115,7 @@ function Main() {
         ))}
       </div>
 
+      <PrevWork/>
 
       <div>
         <h2 className='font-bold  text-2xl md:text-3xl mb-15 '>Tools & Workflow <FaTools className='inline-block mb-2' /> </h2>
