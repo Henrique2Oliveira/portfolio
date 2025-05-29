@@ -9,7 +9,7 @@
 <h2 align="left">About me</h2>
 
 ###
-
+444-444
 <p align="left">
 ✨ Creating bugs since I wrote my first `console.log`<br>
 📚 I'm currently learning advanced backend architecture with NestJS and improving testing skills with Jest<br>
@@ -38,3 +38,10 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
   <img width="12" />
 </div>
+
+
+<!-- new changes to this code follow the instructions
+npm run build
+npm run deploy   <-- this will send to the github portfolio link
+
+ -->
