@@ -34,7 +34,7 @@ function Header() {
       <h1 className="text-2xl font-bold md:text-5xl bg-gradient-to-l to-[#eeeeee] from-[#ece09c]  bg-clip-text text-transparent">Henrique Oliveira</h1>
 
       <p className="rounded-full bg-secondary w-fit px-3 italic">Full-Stack Developer </p>
-      <p className="text-sm">Azores, Portugal</p>
+      <p className="text-sm">🌊📍Azores, Portugal</p>
       <div className="flex gap-x-2 flex-wrap justify-center items-center mt-4">
         <motion.button
           initial={{ scale: 0, x: -200 }}
